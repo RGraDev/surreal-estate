@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #36393d;
+    width: 100vw;
+    display: flex;
+}
+
+.navbar-logo {
+    width: 300px;
+}
+
+.navbar-links {
+    margin-left: 0;
+    padding: 0;
+}
+
+.navbar-links-item {
+    margin: 0;
+    padding: 2vw;
+    display: inline-block;
+}
+
+.navbar-links-item a:visited {
+    color: #000000
+}
