@@ -1,0 +1,21 @@
+form {
+    background-color: lightgray;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: .5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+form button {
+    width: 20vw;
+    align-self: center;
+}
+
