@@ -32,6 +32,7 @@ const AddProperty = () => {
           <input
             id="title"
             name="title"
+            type="text"
             value={fields.title}
             onChange={handleFieldChange}
           />
@@ -50,6 +51,7 @@ const AddProperty = () => {
           <input
             id="bedrooms"
             name="bedrooms"
+            type="number"
             value={fields.bedrooms}
             onChange={handleFieldChange}
           />
@@ -59,6 +61,7 @@ const AddProperty = () => {
           <input
             id="bathrooms"
             name="bathrooms"
+            type="number"
             value={fields.bathrooms}
             onChange={handleFieldChange}
           />
@@ -67,6 +70,7 @@ const AddProperty = () => {
           Price:
           <input
             id="price"
+            type="number"
             name="price"
             value={fields.price}
             onChange={handleFieldChange}
@@ -92,11 +96,12 @@ const AddProperty = () => {
           <input
             id="email"
             name="email"
+            type="email"
             value={fields.email}
             onChange={handleFieldChange}
           />
         </label>
-        <button type="submit">Add</button>
+        <button type="submit">Add Property</button>
       </form>
     </div>
   );
